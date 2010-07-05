@@ -12,6 +12,10 @@ projects[] = token
 projects[] = xmlsitemap
 
 ; Theme
-projects[fresh_media][type] = "theme"
-projects[fresh_media][download][type] = "git"
-projects[fresh_media][download][url] = "git@git.mig5.net:/drupal/themes/fresh_media"
+projects[tao][type] = theme
+projects[tao][download][type] = git
+projects[tao][download][url] = git://github.com/developmentseed/tao.git
+
+projects[rubik][type] = theme
+projects[rubik][download][type] = git
+projects[rubik][download][url] = git://github.com/developmentseed/rubik.git
